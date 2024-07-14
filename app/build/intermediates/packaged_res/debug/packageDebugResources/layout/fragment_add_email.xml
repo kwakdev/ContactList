@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_name"
+        android:fontFamily="@font/archivo_black"
+
+        android:textColor="@android:color/black"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_contact_name"
+        android:fontFamily="@font/archivo_black"
+
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:fontFamily="@font/archivo_black"
+
+        android:text="@string/email_address"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:fontFamily="@font/archivo_black"
+
+        android:id="@+id/editTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email_address"
+        android:inputType="textEmailAddress" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!--button wont use change unless i use this version-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmitEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

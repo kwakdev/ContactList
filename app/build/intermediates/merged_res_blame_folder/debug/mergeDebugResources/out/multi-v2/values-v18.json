@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ejck.projectevankwak.app-mergeDebugResources-29:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\evank\\Documents\\Scoo\\VroApp\\caches\\transforms-4\\fc372b3fae5ab9d8bfc3483f7fe48181\\transformed\\appcompat-1.7.0\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_namee"
+        android:fontFamily="@font/archivo_black"
+
+        android:textColor="@android:color/black"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+
+        android:hint="@string/enter_contact_namee"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:fontFamily="@font/archivo_black"
+
+        android:textColor="@android:color/black"
+
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+
+        android:hint="@string/enter_phone_number"
+        android:inputType="phone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!--button wont use change unless i use this version-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmitPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submitt"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/custom_button_background"
+    android:textColor="@android:color/white"
+    android:padding="12dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:textAllCaps="false"/>
+
+
+
+</LinearLayout>

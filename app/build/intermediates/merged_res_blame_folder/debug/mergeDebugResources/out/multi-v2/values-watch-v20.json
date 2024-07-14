@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ejck.projectevankwak.app-mergeDebugResources-29:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\evank\\Documents\\Scoo\\VroApp\\caches\\transforms-4\\fc372b3fae5ab9d8bfc3483f7fe48181\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

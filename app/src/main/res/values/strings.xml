@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Evans Project 1 </string>
+    <string name="app_name">Contact List </string>
     <string name="contact_name">Contact Name</string>
     <string name="enter_contact_name">Enter contact name</string>
     <string name="email_address">Email Address</string>
