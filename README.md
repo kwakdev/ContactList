@@ -1,7 +1,7 @@
 ## Upcoming Updates
 
-### 1. Implemting Calls
-I am integrating the call indent to allow the user to make a call from the app.
+### 1. Implementing Calls ✅Implemeted
+I am integrating the call intent to allow the user to make a call from the app.
 
 
 ## Contact
